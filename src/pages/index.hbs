@@ -1,0 +1,95 @@
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{{seo.title}}</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="{{seo.url}}" />
+    <meta name="description" content="{{seo.description}}" />
+    <meta property="og:title" content="{{seo.title}}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{seo.url}}" />
+    <meta property="og:description" content="{{seo.description}}" />
+    <meta property="og:image" content="{{seo.image}}" />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <a href="/recipes">Recipes</a>
+    <!--
+    <nav>
+       <a href="./index.hbs">Home</a>
+        <a href="/recipes">Recipes</a>
+    </nav>
+    -->
+    <div class="wrapper">
+      <div class="content" role="main">
+
+        <!-- This is the start of content for our page -->
+        <h1 class="title"><center>Cheap Chomps</center></h1>
+
+        <div class="budget-div">
+          <p><center>Price-conscious meal planning!</center></p><br />
+
+          <!-- sends a POST request to the server (server.js) -->
+          <form class="budget-form" method="post">
+            <label for="budget" id="budget-label"><center>What is the budget ($)
+                for your next meal?</center></label><br />
+            <center><input
+                id="budget"
+                name="budget"
+                required="required"
+                type="number"
+                step="0.01"
+                min="0"
+                placeholder="15.25"
+              /></center>
+
+            <!-- If the user submits a value through the form 
+                 it'll be passed to the server in the request body  -->
+            <center><button type="submit">Submit</button></center>
+          </form>
+        </div>
+
+        <!-- About our project -->
+        <div class="instructions parent">
+          <div class="column">
+            <h2 class="headers">
+              The Problem
+            </h2>
+            <p>
+              Low income can lead to worsened health outcomes because the
+              affordability of unhealthy foods often leads to limited dietary
+              choices, reinforcing the link between poverty and unhealthy eating
+              patterns. Often the cheapest foods are the most unhealthy, but for
+              families in poorer communities, this is their only option.
+            </p>
+          </div>
+
+          <div class="column">
+            <h2 class="headers">
+              Our Solution
+            </h2>
+            <p>
+              CheapChomps is a price conscious meal-planning site that generates
+              healthy meals for any budget.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!--
+    <footer class="footer">
+      Name could go here
+    </footer>-->
+  </body>
+</html>
