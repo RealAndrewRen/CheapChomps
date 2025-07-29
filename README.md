@@ -17,7 +17,7 @@ Whether you're a broke college student or just tired of overspending on dinner, 
 
 ## Project Demo
 
-▶️ [Watch the demo video]((https://drive.google.com/file/d/11tcGhaWNwGdS5ZbhZ2-nw-wblZyuWALe/view?usp=drive_link))
+▶️ [Watch the demo video]([https://drive.google.com/file/d/11tcGhaWNwGdS5ZbhZ2-nw-wblZyuWALe/view?usp=drive_link])
 
 ---
 
