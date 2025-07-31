@@ -4,7 +4,7 @@ Cheap Chomps is a recipe generator designed to help users cook low-cost meals us
 
 > Submitted to **SteelCity Hacks 2023**
 
-Whether you're a broke college student or just tired of overspending on dinner, Cheap Chomps aims to help you whip up affordable recipes based on your budget, preferences, and pantry staples.
+Whether you're a broke college student or just tired of overspending on dinner, Cheap Chomps aims to help you whip up affordable recipes based on your budget.
 
 ## What We Proposed
 
@@ -37,13 +37,13 @@ Due to API token limits during the hackathon, we weren’t able to fully impleme
 
 ---
 
-## Features (Planned)
+## Planned Features
 
-- AI-generated recipes tailored to your budget
-- Ingredient cost integration from public datasets
-- Cost per serving + total meal price calculator
-- Smart substitutions for cheaper alternatives
-- Clean, readable step-by-step instructions
+- AI-generated meals under a user-defined budget
+- Ingredient-level pricing
+- Cost-per-serving calculator
+- Suggested substitutions for lower-cost options
+- Step-by-step cooking instructions
 
 ---
 
