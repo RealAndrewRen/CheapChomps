@@ -1,6 +1,6 @@
 # Cheap Chomps
 
-**Cheap Chomps** is a price-conscious recipe builder designed to help users create delicious, budget-friendly meals using the power of **ChatGPT** and real **ingredient price data**.
+Cheap Chomps is a recipe generator designed to help users cook low-cost meals using real-world ingredient price data and the ChatGPT API.
 
 > Submitted to **SteelCity Hacks 2023**
 
@@ -17,13 +17,13 @@ Whether you're a broke college student or just tired of overspending on dinner, 
 
 ## Project Demo
 
-▶️ [Watch the demo video]([https://drive.google.com/file/d/11tcGhaWNwGdS5ZbhZ2-nw-wblZyuWALe/view?usp=drive_link])
+Watch the demo video: https://drive.google.com/file/d/11tcGhaWNwGdS5ZbhZ2-nw-wblZyuWALe/view?usp=drive_link
 
 ---
 
-## ❗Note on Implementation
+## ❗Project Status
 
-Due to limited access to the OpenAI API during the hackathon, we were unable to fully implement the functionality. After exhausting our free OpenAI credits, we pivoted to designing a working prototype and laying out the system architecture and data sources.
+Due to API token limits during the hackathon, we weren’t able to fully implement backend functionality. After exhausting our GPT quota, we focused on designing the prototype, system flow, and data integration strategy. The project remains incomplete, but we’ve outlined the core components and data pipeline for future development.
 
 ---
 
@@ -47,7 +47,7 @@ Due to limited access to the OpenAI API during the hackathon, we were unable to 
 
 ---
 
-## Team Cheap Chomps
+## Contributors
 
 - **Andrew Ren**
 - **Eric Pan** 
